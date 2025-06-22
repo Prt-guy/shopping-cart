@@ -1,0 +1,40 @@
+.home-container {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button, .custom-button-outline {
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.custom-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #ffffff;
+}
+
+.custom-button-outline {
+  border: 2px solid #007bff;
+  color: #007bff;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.custom-button-outline:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
